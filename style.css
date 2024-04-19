@@ -50,3 +50,40 @@ body {
   font-weight: 500;
   color: #464646;
 }
+
+.left-section .sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.left-section .sidebar .item,
+.left-section .sign-out {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.left-section .sidebar .item i,
+.left-section .sign-out i {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+
+.left-section .sidebar .item h3,
+.left-section .sign-out h3 {
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.4s ease;
+}
+
+.left-section .sidebar .item.active i {
+  background-color: #fed24d;
+}
+
+.left-section .sidebar .item.active h3 {
+  color: #ffb700;
+}
