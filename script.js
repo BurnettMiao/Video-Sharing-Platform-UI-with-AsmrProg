@@ -35,4 +35,15 @@ window.onload = function () {
       catItem.classList.add('active');
     });
   });
+
+  // Move sidebar on small devicd scroll
+  window.addEventListener('scroll', () => {
+    if (window.innerWidth <= 992) {
+      if (this.pageYOffset > 20) {
+        sidebar.style.paddingTop = '20px';
+      } else {
+        sidebar.style.paddingTop = '70px';
+      }
+    }
+  });
 };
