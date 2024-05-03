@@ -297,3 +297,46 @@ body {
 .right-section {
   flex: 2;
 }
+
+/* profile */
+.right-section .profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.right-section .profile .info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.right-section .profile .info > i {
+  font-size: 20px;
+}
+
+.right-section .profile .info h5 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.right-section .profile .user i {
+  font-size: 22px;
+  border: 1px solid #e5e5e5;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.right-section .profile .user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.right-section .profile .user img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+}
