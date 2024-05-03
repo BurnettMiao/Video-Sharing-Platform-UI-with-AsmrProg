@@ -198,6 +198,31 @@ body {
   font-size: 14px;
 }
 
+/* separator section */
+.main .separator {
+  padding: 26px 20px;
+}
+
+.main .separator .categories {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+}
+
+.main .separator .categories a {
+  padding: 8px 12px;
+  background: #e8f3f8;
+  border-radius: 12px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.main .separator .categories a.active,
+.main .separator .categories a:hover {
+  background: #15333a;
+  color: #fff;
+}
+
 /* right section */
 .right-section {
   flex: 2;
